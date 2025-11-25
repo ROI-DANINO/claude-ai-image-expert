@@ -1,0 +1,8 @@
+{
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "chunkSize": 500,
+  "chunkOverlap": 50,
+  "topK": 3,
+  "knowledgeDir": "../knowledge",
+  "cacheFile": "./embeddings-cache.json"
+}
