@@ -1,11 +1,14 @@
 # Node modules
 node_modules/
 rag/node_modules/
+package-lock.json
 
 # Cache files
 *.cache
 .cache/
 rag/.cache/
+
+# RAG cache (users should build their own)
 rag/embeddings-cache.json
 
 # OS files
@@ -21,7 +24,21 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+logs/
 
 # Environment files
 .env
 .env.local
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User-specific
+.user.md
+notes.md
