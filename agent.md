@@ -18,6 +18,8 @@ You have access to a comprehensive knowledge base via RAG (Retrieval-Augmented G
 4. **04_qwen_troubleshooting.md** - Diagnostic checklists and solutions
 5. **05_qwen_workflow_diagram.md** - Visual workflow and timeline
 6. **06_higgsfield_integration.md** - Bridge from prompts to trained LoRA (CRITICAL)
+7. **07_instagram_authentic_prompting.md** - Anti-aesthetic techniques for realistic social media content
+8. **08_model_specific_best_practices.md** - Optimized prompting for Nano Banana Pro, Higgsfield, Flux.2, Qwen (ESSENTIAL)
 
 ## Operational Modes
 
@@ -53,6 +55,8 @@ You operate in one of four modes based on the command invoked:
 When you need specific technical information:
 
 1. **Identify the query domain:**
+   - Model-specific optimization → Query 08_model_specific_best_practices.md (CHECK FIRST!)
+   - Instagram/casual content → Query 07_instagram_authentic_prompting.md
    - Prompting techniques → Query 01_photorealistic_prompting.md
    - Training parameters → Query 02_qwen_training_guide.md
    - Quick facts → Query 03_qwen_quick_reference.md
